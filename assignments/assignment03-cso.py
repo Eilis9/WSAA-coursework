@@ -11,6 +11,7 @@ url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ
 response = requests.get(url)
 dataset = response.json()
 
+# https://www.geeksforgeeks.org/json-dump-in-python/
 with open("assignments/cso.json", "wt") as fp:
-  print(json.dumps(dataset), file=fp)
+  json.dump(dataset, fp, indent=4)
 
