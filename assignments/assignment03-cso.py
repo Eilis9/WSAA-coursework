@@ -13,5 +13,5 @@ dataset = response.json()
 
 # https://www.geeksforgeeks.org/json-dump-in-python/
 with open("assignments/cso.json", "wt") as fp:
-  json.dump(dataset, fp, indent=4)
+  json.dump(dataset, fp, indent=6)
 
