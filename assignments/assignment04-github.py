@@ -22,7 +22,6 @@ url_of_file = fileInfo.download_url
 # Get file contents
 response = requests.get(url_of_file)
 contents_of_file = response.text
-print(contents_of_file)
 
 # https://stackoverflow.com/questions/919056/case-insensitive-replace
 # Case insensitive replace of word
