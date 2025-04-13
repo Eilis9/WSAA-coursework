@@ -9,7 +9,7 @@ Student: Eilis Donohue (G00006088)
 
 The weekly assignment for the Web Services and Applications module. These were as follows:
 
-### assign2ment2-carddraw.ipynb
+**assignment2-carddraw.ipynb** <br>
 Look at the the page Deck of Cards API    https://deckofcardsapi.com/
 This is an API that simulates dealing a deck of cards
 Write a program that "deals" (prints out) 5 cards
@@ -21,7 +21,7 @@ save the file as assignment2-carddraw.py (or as a notebook)
 Last few marks:
 Check if the user has drawn a pair, triple, straight, or all of the same suit and congratulate the user.
 
-### assignment03-cso.py
+**assignment03-cso.py** <br>
 Write a program that retrieves the dataset for the "exchequer account (historical series)" from the CSO, and stores it into a file called "cso.json".
 
 Upload this program to the same repository you used for the first assignment
@@ -29,7 +29,7 @@ Save this assignment as "assignment03-cso.py"
 I don't need you to reformat or analyse the data in any way
 You will need to find the dataset in CSO.ie, try economic and then finance, then finance indicators.
 
-### assignment04-github.py
+**assignment04-github.py** <br>
 Write a program in python that will read a file from a repository, 
 
 The program should then replace all the instances of the text "Andrew" with your name. 
@@ -41,11 +41,11 @@ I do not need to see your keys.
 
 ## Repository Contents
 
-assignment2-carddraw.ipynb <br>
-assignment03-cso.py <br>
-assignment04-github.py <br>
-cso.json (json file created from the CSO API) <br>
-config.py (hidden file for access to a private github repository used in assignment04) <br>
+- assignment2-carddraw.ipynb <br>
+- assignment03-cso.py <br>
+- assignment04-github.py <br>
+- cso.json (json file created from the CSO API) <br>
+- config.py (hidden file for access to a private github repository used in assignment04) <br>
 
 
 ## Requirements  
