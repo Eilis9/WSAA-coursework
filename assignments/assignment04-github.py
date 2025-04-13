@@ -23,7 +23,7 @@ url_of_file = fileInfo.download_url
 response = requests.get(url_of_file)
 contents_of_file = response.text
 
-# https://stackoverflow.com/questions/919056/case-insensitive-replace
+# https://stackoverflow.com/questions/919056/case-insensitive-replace [7]
 # Case insensitive replace of word
 reg_exp = re.compile(re.escape('andrew'), re.IGNORECASE)
 new_contents = reg_exp.sub('Eilis', contents_of_file)
