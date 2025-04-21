@@ -73,8 +73,8 @@ The notebooks can be run in two ways:
     - Open the repository folder in VS Code
     - Install the Python extension if prompted
     - Select the wsaa_assignment environment as the Python interpreter
-  4. Run the Jupyter Notebooks: <br>
-    - Open the notebook file (project.ipynb) in VS Code
+  4. Run the Jupyter Notebooks (where relevant): <br>
+    - Open the notebook file (assignment2-carddraw.ipynb) in VS Code
     - Use the integrated Jupyter Notebook interface to run the cells
 
 ### Option 2: Run using Github Codespaces
